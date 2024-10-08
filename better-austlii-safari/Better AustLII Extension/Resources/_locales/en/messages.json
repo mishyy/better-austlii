@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Better AustLII",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "The extension changes the typography on AustLII to make it more visually appealing.",
+        "description": "Description of what the extension does."
+    }
+}

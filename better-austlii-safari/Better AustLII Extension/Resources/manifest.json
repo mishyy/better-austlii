@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "default_locale": "en",
+
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
+    "version": "2.3.1",
+
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "144": "images/icon-144.png",
+    },
+
+    "content_scripts": [{
+        "js": [ "content.js" ],
+        "css": [ "content.css" ],
+        "matches": [ "*://austlii.edu.au/*", "*://*.austlii.edu.au/*" ]
+    }],
+
+    "permissions": [ "activeTab" ]
+}
